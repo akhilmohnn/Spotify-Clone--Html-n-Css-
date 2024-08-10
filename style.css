@@ -276,24 +276,24 @@ body{
 
 .spotify-playlist .card{
 
-   display: flex;
-   gap: 20px;
+   display:flex;
+   gap: 5px;
    overflow: hidden;
 
 }
 
 .spotify-playlist .card .item{
 
-   width: 190px;
+   width: 200px;
    min-width: 140px;
    background-color: #1f1e1e;
    cursor: pointer;
    border-radius: 6px;
-   padding: 15px;
+   padding: 20px 10px;
 }
 
 .spotify-playlist .card .item img{
-   width: 100%;
+   width: 115%;
    border-radius: 6px;
    margin-bottom: 10px;
 }
