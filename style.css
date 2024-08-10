@@ -178,6 +178,7 @@ body{
 
 .eng-btn button
 {
+   
     padding: 10px 30px;
     background: transparent;
     border: 0;
@@ -188,8 +189,74 @@ body{
     margin: 20px 0;
 }
 
+
 .eng-btn button:hover{
     padding: 11px 30px;
     border: 1px solid #ffffff;
+}
+
+.mainsection{
+   margin-left: 305px;
+   background: #181818;
+   height: 100vh;
+   margin-right: 6px;
+   margin-top: 5px;
+   border-radius: 15px;
+}
+
+.mainsection .top-nav{
+   padding: 15px 30px;
+   background: #101010;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 15px;
+
+}
+
+.mainsection .top-nav  button{
+   background: transparent;
+   border: 0;
+   outline: 0;
+}
+
+.mainsection .top-nav .prev-btn i{
+   color: #838181;
+   font-size: 20px;
+   margin-right: 10px;
+}
+
+.top-nav .login-btn .signup {
+
+   color: #838181;
+   font-size: 16px;
+   font-weight: 600;
+   margin-right: 50px;
+
+}
+.top-nav .login-btn .signup:hover{
+
+   color: #ffffff;
+   
+
+}
+
+.top-nav .login-btn .login {
+
+   color: #050505;
+   font-size: 16px;
+   font-weight: 600;
+   background: #ffffff;
+   padding: 15px 30px;
+   border-radius: 25px;
+
+}
+
+.top-nav .login-btn .login:hover{
+
+   transform: scale(1.05);
+   background: #e8e8e8;
+
+
 }
 
