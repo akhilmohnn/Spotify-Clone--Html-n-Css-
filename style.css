@@ -198,7 +198,7 @@ body{
 .mainsection{
    margin-left: 310px;
    background: #181818;
-   height: 100vh;
+   height: 150vh;
    margin-right: 6px;
    margin-top: 5px;
    border-radius: 15px;
@@ -281,7 +281,7 @@ color: #ffffff;
 
 
 .spotify-playlisttop .card {
-   display: flex;
+   display:flex;
    gap: 1.5px;
    overflow: hidden;
 }
@@ -445,3 +445,64 @@ color: #ffffff;
    opacity: 1;
    
 }
+
+.footer-section{
+   padding: 20px 40px;
+}
+
+.footer-section .footer{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+.footer-section .footer .footer-links{
+   display: flex;
+   justify-content: space-between;
+   gap: 50px;
+}
+
+.footer-section .footer .footer-links .footer-column{
+   margin: 0 12px;
+   
+}
+
+.footer-section .footer .footer-links div{
+   color:#fff;
+   font-weight: 600;
+   margin-bottom: 12px;
+   font-size: 16px;
+
+}
+
+.footer-section .footer .footer-links ul li{ 
+   list-style: none;
+   margin: 6px 0;
+   
+}
+
+.footer-section .footer .footer-links ul li a{ 
+   text-decoration: none;
+   color: #969393;
+   font-size: 14px;
+   cursor: pointer;
+   
+}
+
+.footer-section .footer .footer-links ul li a:hover{ 
+   text-decoration: underline;
+   color: #ffffff;
+   
+   
+}
+
+.footer .social-link i{
+   color: #ffffff;
+   background-color: #353434;
+   padding: 12px;
+   margin-right: 10px;
+   border-radius: 50%;
+   cursor: pointer;
+
+}
+
