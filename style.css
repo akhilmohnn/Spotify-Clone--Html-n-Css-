@@ -11,7 +11,7 @@ body{
 
 
 .sidebar{
-    width: 300px;
+    width: 305px;
     background: #030303;
     position: fixed;
     top: 0;
@@ -186,7 +186,7 @@ body{
     color: #ffffff;
     border: 1px solid #818080;
     border-radius: 20px;
-    margin: 20px 0;
+    margin: 50px 0;
 }
 
 
@@ -196,7 +196,7 @@ body{
 }
 
 .mainsection{
-   margin-left: 305px;
+   margin-left: 310px;
    background: #181818;
    height: 100vh;
    margin-right: 6px;
@@ -273,38 +273,35 @@ body{
    margin-bottom: 20px;
 
 }
-
-.spotify-playlist .card{
-
-   display:flex;
-   gap: 5px;
+.spotify-playlist .card {
+   display: flex;
+   gap: 1.5px;
    overflow: hidden;
-
 }
 
-.spotify-playlist .card .item{
-
-   width: 200px;
-   min-width: 140px;
+.spotify-playlist .card .item {
+   width: 170px; /* Adjusted width to accommodate the larger image */
+   min-width: 170px;
    background-color: #1f1e1e;
    cursor: pointer;
    border-radius: 6px;
    padding: 20px 10px;
 }
 
-.spotify-playlist .card .item img{
-   width: 115%;
+.spotify-playlist .card .item img {
+   width: 108%; /* Keeping image width as specified */
    border-radius: 6px;
    margin-bottom: 10px;
+   margin-left: -3.5%; /* Centering the image by shifting it left */
 }
 
-.spotify-playlist .item h4{
+.spotify-playlist .item h4 {
    color: #fff;
 }
 
-.spotify-playlist .item p{
-   color:#8f8e8e;
+.spotify-playlist .item p {
+   color: #8f8e8e;
    font-size: 13px;
    margin-top: 10px;
-
 }
+
