@@ -279,14 +279,21 @@ body{
    overflow: hidden;
 }
 
-.spotify-playlist .card .item {
+.spotify-playlist .card .item{
    width: 170px; /* Adjusted width to accommodate the larger image */
    min-width: 170px;
-   background-color: #1f1e1e;
+   /* background-color: #1e1e1e; */
    cursor: pointer;
    border-radius: 6px;
    padding: 20px 10px;
 }
+
+.spotify-playlist .card .item:hover{
+
+   background-color: #757575;
+   
+}
+
 
 .spotify-playlist .card .item img {
    width: 108%; /* Keeping image width as specified */
@@ -305,3 +312,14 @@ body{
    margin-top: 10px;
 }
 
+.spotify-playlist .item p:hover{
+   text-decoration: underline;
+}
+.spotify-playlist>::after{
+   margin-top: 18px;   
+   content: 'Show all';
+      font-size: 13px;
+      color: #838181;
+      float : right;
+   
+}
