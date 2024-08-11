@@ -273,6 +273,13 @@ body{
    margin-bottom: 20px;
 
 }
+
+.spotify-playlist h2:hover{
+text-decoration: underline;
+color: #ffffff;
+}
+
+
 .spotify-playlist .card {
    display: flex;
    gap: 1.5px;
@@ -290,7 +297,7 @@ body{
 
 .spotify-playlist .card .item:hover{
 
-   background-color: #757575;
+   background-color: #212121;
    
 }
 
@@ -321,5 +328,27 @@ body{
       font-size: 13px;
       color: #838181;
       float : right;
+   
+}
+
+.spotify-playlist .play-btn {
+   position: relative;
+}
+
+.spotify-playlist .play-btn i{
+  position: absolute;
+  background: #1db954;
+  border-radius: 150px;
+  padding: 17px;
+  right: 1px;
+  top: -72px;
+  opacity: 0;
+  transform:0.3s ease all;
+
+}
+
+.spotify-playlist .card .item:hover .play-btn i{
+
+   opacity: 1;
    
 }
