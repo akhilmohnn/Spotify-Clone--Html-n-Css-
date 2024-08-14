@@ -550,11 +550,11 @@ hr{
 }
 
 .preview button{
-   padding: 8px 20px;
+   padding: 12px 24px;
    border: 0;
    outline: 0;
    border-radius: 20px;
-   font-size: 14px;
+   font-size: 16px;
    font-weight: 600;
    color: #000;
 }
