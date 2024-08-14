@@ -202,7 +202,26 @@ body{
    margin-right: 6px;
    margin-top: 5px;
    border-radius: 15px;
+   margin-bottom: 83px;;
 }
+
+.mainsection::-webkit-scrollbar
+{
+   background: transparent;
+}
+
+.mainsection::-webkit-scrollbar-thumb
+{
+   background: transparent;
+   width: 10px;
+}
+
+.mainsection:hover::-webkit-scrollbar-thumb
+{
+   background: #706a6a;
+   width: 5px;
+}
+
 
 .mainsection .top-nav{
    padding: 20px 30px;
@@ -538,8 +557,8 @@ hr{
 }
 
 .preview h4{
-   font-family: 13px;
-   font-weight: 600;
+   font-family: 4px;
+   font-weight: 400;
    color: #fff;
 }
 
